@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e99609a5b3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" alt="Logo" src="https://t4.ftcdn.net/jpg/03/85/94/91/360_F_385949189_W1ydL4Z3c6Uy2OfB9rZNdbxVaIMOs16F.jpg"
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#whatIsGithub">What is Github</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero">
+      <h2>This landing page is an homage to Github.</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" placeholder="Enter your email adress for more information" name="email" required/>
+        <input type="submit" id="submit" value="GET STARTED"/>
+      </form>
+    </section>
+    <div class="container">
+      <div id="features">
+        <div class="grid">
+          <div class="icon">
+            <i class="fa-brands fa-square-github"></i>
+          </div>
+          <div class="text">
+            <h2>About Github</h2>
+            <p>GitHub, Inc. is a developer platform created in 2008 that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. Headquartered in California, it has been a subsidiary of Microsoft since 2018.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa-sharp fa-solid fa-code-compare"></i>
+          </div>
+          <div class="text">
+            <h2>Services and Scope</h2>
+            <p>Projects on GitHub.com can be accessed and managed using the standard Git command-line interface; all standard Git commands work with it. GitHub.com also allows users to browse public repositories on the site. Multiple desktop clients and Git plugins are also available. In addition, the site provides social networking-like functions such as feeds, followers, wikis (using wiki software called Gollum), and a social network graph to display how developers work on their versions ("forks") of a repository and what fork (and branch within that fork) is newest. The primary purpose of GitHub is to facilitate the version control and issue tracking aspects of software development.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa-sharp fa-solid fa-laptop"></i>
+          </div>
+          <div class="text">
+            <h2>Github Enterprise</h2>
+            <p>GitHub Enterprise is a self-managed version of GitHub with similar functionality. It can be run on an organization's hardware or a cloud provider and has been available as of November 2011. It offers Enterprise Cloud and Server services.
+            </p>
+          </div>
+        </div> 
+      </div>
+      <div id="whatIsGithub">
+        <iframe id="video" src="https://www.youtube-nocookie.com/embed/pBy1zgt0XPc?rel=0&controls=0&showinfo=0" height="315" width="500" title="What is Github" frameborder="0"></iframe>
+      </div>
+      <div id="pricing">
+        <div class="product">
+          <div class="level">FREE</div>
+          <h2>$0</h2>
+          <ol>
+            <li>The basics for individuals
+and organizations</li>
+            <li>2000 CI/CD minutes per month</li>
+            <li>500 MB of Packages Storage</li>
+            <li>Community Support</li>
+          </ol>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="product">
+        <div class="level">TEAM</div>
+          <h2>$4 per month</h2>
+          <ol>
+            <li>Advanced collaboration for
+individuals and organizations</li>
+            <li>3000 CI/CD minutes per month</li>
+            <li>2 GB of Packages Storage</li>
+            <li>Web-based Support</li>
+          </ol>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="product">
+        <div class="level">ENTERPRISE</div>
+          <h2>$21 per month</h2>
+          <ol>
+            <li>Security, compliance and flexible deployment</li>
+            <li>50000 CI/CD minutes per month</li>
+            <li>50 GB of Packages Storage</li>
+            <li>Premium Support</li>
+          </ol>
+          <button class="btn">SELECT</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>  
